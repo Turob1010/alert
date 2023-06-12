@@ -33,8 +33,6 @@ application:
   product:
     base-url: ${PRODUCT_SERVICE_URL:http://localhost:8087}
     product-url: ${PRODUCT_URL:http://localhost/product/}
-  user:
-    base-url: ${USER_SERVICE_URL:http://localhost:8088}
   auth-server:
     base-url: ${AUTH_SERVER:http://localhost:3366}
   telegram-bot:
